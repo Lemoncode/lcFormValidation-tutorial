@@ -17,7 +17,8 @@ module.exports = {
       'react-dom',
       'redux',
       'redux-thunk',
-      'core-js'
+      'core-js',
+      'lc-form-validation'
     ],
     vendorStyles: [
       './node_modules/bootstrap/dist/css/bootstrap.css',
@@ -32,7 +33,12 @@ module.exports = {
       {
         test: /\.tsx?$/,
         exclude: /node_modules/,
-        loader: 'awesome-typescript-loader',
+        use: {
+          loader: 'awesome-typescript-loader',
+          options: {
+            useBabel: true
+          }
+        }
       },
       {
         test: /\.scss$/,
