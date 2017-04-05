@@ -619,3 +619,6 @@ To run this example simply:
 - perform a `npm install` if you didn't.
 - perform a `npm start` to bootstrap the app.
 - Open your favourite browser and go to [http://localhost:8080](http://localhost:8080) to see the result.
+
+# About Lemoncode
+We are a team of long-term experienced freelance developers, established as a group in 2010. We specialize in Front End technologies and .NET. [Click here](http://lemoncode.net/services/en/#en-home) to get more info about us.
