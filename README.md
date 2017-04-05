@@ -1,6 +1,6 @@
 # LcFormValidation tutorial
 
-This is a simple tutorial of how to integrate the [`lc-form-validation`]() form validation library in an existing React + Redux + TypeScript application.
+This is a simple tutorial of how to integrate the [`lc-form-validation`](https://www.npmjs.com/package/lc-form-validation) form validation library in an existing React + Redux + TypeScript application.
 
 There are two main folders:
 

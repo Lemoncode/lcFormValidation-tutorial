@@ -19,6 +19,12 @@ To apply validation in a React + Redux application we'll need to:
 
 Let's get started.
 
+First let's install [`lc-form-validation`](https://www.npmjs.com/package/lc-form-validation) library using `npm`:
+
+```shell
+npm install --save lc-form-validation
+```
+
 We'll create a validation service beside our `SignupForm` component, in `src/components/signupForm/validations/` called `signupFormValidation.ts`. In this file we'll create the constraints and the validation service for our sign up form:
 
 ```ts
