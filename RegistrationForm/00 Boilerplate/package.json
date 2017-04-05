@@ -1,0 +1,46 @@
+{
+  "name": "registrationform",
+  "version": "1.0.0",
+  "description": "A React + TypeScript form to implement validations using lc-form-validation library",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lemoncode <info@lemoncode.net>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "jquery": "^3.2.0",
+    "moment": "^2.18.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "@types/react": "^15.0.16",
+    "@types/react-dom": "^0.14.23",
+    "@types/react-redux": "^4.4.37",
+    "awesome-typescript-loader": "^3.1.2",
+    "babel-core": "^6.24.0",
+    "babel-preset-env": "^1.2.2",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.14.1",
+    "typescript": "^2.2.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
