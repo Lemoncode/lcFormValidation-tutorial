@@ -17,8 +17,8 @@ module.exports = {
       'react-dom',
       'redux',
       'redux-thunk',
-      'core-js',
-      'lc-form-validation'
+      'whatwg-fetch',
+      'core-js'
     ],
     vendorStyles: [
       './node_modules/bootstrap/dist/css/bootstrap.css',

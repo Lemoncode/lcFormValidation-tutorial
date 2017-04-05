@@ -17,6 +17,7 @@ module.exports = {
       'react-dom',
       'redux',
       'redux-thunk',
+      'whatwg-fetch',
       'core-js'
     ],
     vendorStyles: [
